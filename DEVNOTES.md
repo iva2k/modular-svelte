@@ -22,11 +22,14 @@ Low level parts:
 
 For the development to be productive, the following path is envisioned: create a simple app / website with few parts: toolbar, login, couple sections of the app, and then modularize them - make changes necessary to split each block into a module. The modules are:
 
+* sverdle (good example of inclusive sub-app with SSR/server side, session/cookie)
 * login
 * backend-x
 * about
 * news
 * others TBD as needed
+
+Structurally, 1st step is to organize as a monorepo - there will be packages and example apps, then a project website, documentation website, modules repo/marketplace, etc.
 
 ## Dev Environment
 
